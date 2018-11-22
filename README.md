@@ -15,3 +15,5 @@ Using the rounded method is the preferred way of doing things. If you use exp-ge
 What's interesting about this program is that *most* numbers seem to converge to gamma + ~(i0.375), where gamma is the Euler-Mascheroni constant, I don't know what the imaginary part is, i.e. if it's a known constant.
 
 However, when you plug in the number -2 - 2i it diverges, I'm not sure of any other numbers you can plug in to get it to diverge, and I'm not sure what's special about -2 - 2i. I got that number through testing :^)
+
+EDIT: The general form for the number z to cause the sequence to diverge is {a + bi | a = -2^(2k+1), b = -2^(2j+1), a,b > 0 and a >=b}, or at least one of them
