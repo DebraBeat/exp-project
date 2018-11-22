@@ -3,10 +3,10 @@
 This is a program to calculate a sequence of arbitrary length for the sequence a_0 = z, a_n = exp(i(a_{n-1})), where z is an arbitrary complex number, a_n is the nth member of the sequence, e is euler's constant, exp(z) = e^z,and i is the square root of -1.
 
 The dependencies of this program are the sympy library. Install it with:
-	pip install sympy
+<code>pip install sympy</code>
 
 The way to use this program is:
-	python [exp-generate.py or rounded-exp-generate.py] [real part of a_0] [imaginary part of a_0] [number of iterations]
+<code>python [exp-generate.py or rounded-exp-generate.py] [real part of a_0] [imaginary part of a_0] [number of iterations]</code>
 
 Using the rounded method is the preferred way of doing things. If you use exp-generate it will go through all the iterations, however if you use rounded-exp-generate it will stop when the previous number in the sequence is 0.001 away in both real and complex parts.
 
